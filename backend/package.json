@@ -1,21 +1,22 @@
 {
-  "name": "fiya-tour-backend",
+  "name": "node-begin",
   "version": "1.0.0",
-  "description": "Backend for Fiya Tour application",
-  "main": "src/app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
     "dotenv": "^17.2.3",
-    "express": "^4.18.2",
-    "mongoose": "^9.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.0.1",
+    "nodemon": "^3.1.11"
   }
 }

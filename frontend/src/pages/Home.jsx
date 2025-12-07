@@ -17,7 +17,10 @@ const Home = () => {
     fetchTours();
   }, []);
 
-  const filteredTours = tours.filter(tour => tour.title.toLowerCase().includes(search.toLowerCase()) || tour.location.toLowerCase().includes(search.toLowerCase()));
+  const filteredTours = tours.filter(tour => 
+    (tour.name && tour.name.toLowerCase().includes(search.toLowerCase())) || 
+    (tour.summary && tour.summary.toLowerCase().includes(search.toLowerCase()))
+  );
 
   return (
     <div className="container mx-auto pt-20 pb-8 px-4">

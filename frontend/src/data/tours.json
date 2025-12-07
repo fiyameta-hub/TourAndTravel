@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Mountain Adventure",
+    "duration": 5,
+    "maxGroupSize": 10,
+    "difficulty": "medium",
+    "price": 997,
+    "summary": "Breathtaking hike through the Canadian Banff National Park"
+  },
+  {
+    "id": 2,
+    "name": "Forest Hiking Tour",
+    "duration": 3,
+    "maxGroupSize": 15,
+    "difficulty": "easy",
+    "price": 497,
+    "summary": "Peaceful hike through the Redwood Forest"
+  },
+  {
+    "id": 3,
+    "name": "Desert Safari",
+    "duration": 7,
+    "maxGroupSize": 8,
+    "difficulty": "difficult",
+    "price": 1497,
+    "summary": "Exciting desert adventure with overnight camping"
+  }
+]
