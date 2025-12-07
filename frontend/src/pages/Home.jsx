@@ -40,7 +40,7 @@ const Home = () => {
           <Loader />
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredTours.slice(0, 3).map(tour => <TourCard key={tour.id} tour={tour} />)}
+            {filteredTours.slice(0, 3).map(tour => <TourCard key={tours._id} tour={tour} />)}
           </div>
         )}
       </section>
@@ -50,7 +50,7 @@ const Home = () => {
           <Loader />
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredTours.slice(3).map(tour => <TourCard key={tour.id} tour={tour} />)}
+            {filteredTours.slice(3).map(tour => <TourCard key={tours._id} tour={tour} />)}
           </div>
         )}
       </section>

@@ -1,4 +1,4 @@
-import { FaMountain, FaUsers, FaGlobe } from 'react-icons/fa';
+import { TrendingUp, Users, Globe } from 'lucide-react';
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="text-4xl text-blue-600 mb-4 flex justify-center">
-              <FaMountain />
+              <TrendingUp />
             </div>
             <h3 className="text-xl font-semibold mb-2">Expert Guides</h3>
             <p className="text-gray-600">Our professional guides are passionate about sharing their knowledge and love for adventure.</p>
@@ -22,7 +22,7 @@ const About = () => {
 
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="text-4xl text-blue-600 mb-4 flex justify-center">
-              <FaUsers />
+              <Users />
             </div>
             <h3 className="text-xl font-semibold mb-2">Small Groups</h3>
             <p className="text-gray-600">Enjoy personalized experiences with our small group tours that never feel crowded.</p>
@@ -30,7 +30,7 @@ const About = () => {
 
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <div className="text-4xl text-blue-600 mb-4 flex justify-center">
-              <FaGlobe />
+              <Globe />
             </div>
             <h3 className="text-xl font-semibold mb-2">Sustainable Travel</h3>
             <p className="text-gray-600">We're committed to responsible tourism that benefits local communities and preserves nature.</p>
